@@ -1,0 +1,24 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none  !important;
+  margin: 0  !important;
+}
+input[type="number"] {
+  -moz-appearance: textfield  !important;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.score_color {
+  color: red;
+}
+
+.eva_color {
+  color: blue;
+}
